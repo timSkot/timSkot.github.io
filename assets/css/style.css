@@ -699,6 +699,10 @@ span.red {
 	font-weight: normal;
 	padding: 0 60px;
 	margin-bottom: 30px;
+	min-height: 56px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
 
 .why_wr_item p {
