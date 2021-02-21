@@ -47,4 +47,8 @@ $(document).ready(function () {
         $("html, body").animate({ scrollTop: 0 }, "slow");
         return false;
     });
+    $('a.terms').click(function(e) {
+        e.preventDefault();
+        $('#exampleModal').arcticmodal();
+    });  
 });

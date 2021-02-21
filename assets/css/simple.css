@@ -1,0 +1,27 @@
+.box-modal {
+	position: relative;
+	max-width: 780px;
+	padding: 16px;
+	background: #fff;
+	color: #3c3c3c;
+	box-shadow: 0 0 0 6px rgba(153, 153, 153, .3);
+	border-radius: 6px;
+}
+.box-modal_close { position: absolute; right: -45px; top: -15px; font-size: 11px; line-height: 15px; color: #999; cursor: pointer; }
+.box-modal_close:hover { color: #666; }
+
+.box-modal_cnt h3 {
+	text-align: center;
+	font-size: 28px;
+	margin-bottom: 5px;
+}
+
+.box-modal_cnt h4 {
+	text-align: center;
+	font-size: 16px;
+	margin-bottom: 10px;
+}
+
+.box-modal_cnt p {
+	font-size: 14px;
+}

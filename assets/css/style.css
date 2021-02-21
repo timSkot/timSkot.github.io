@@ -1684,4 +1684,11 @@ span.red {
 	.steps_wr_form_right>a.terms {
 		font-size: 11px;
 	}
+	.arcticmodal-container_i2 {
+		padding-top: 50px;
+	}
+	.box-modal_close {
+		right: 0;
+		top: -35px;
+	}
 }
